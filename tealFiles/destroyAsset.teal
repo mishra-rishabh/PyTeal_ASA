@@ -1,0 +1,9 @@
+#pragma version 5
+itxn_begin
+int acfg
+itxn_field TypeEnum
+int 1
+itxn_field ConfigAsset
+itxn_submit
+int 1
+return
