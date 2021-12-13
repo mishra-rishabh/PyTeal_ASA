@@ -1,0 +1,13 @@
+#pragma version 5
+itxn_begin
+int afrz
+itxn_field TypeEnum
+int 1
+itxn_field FreezeAsset
+int 1
+itxn_field FreezeAssetFrozen
+byte "ZBLZXNUGJJRWWGI5GJY5DG4ERALP2BECPXSCAO7AXQTHL2Q5ALQNTPCKPU"
+itxn_field FreezeAssetAccount
+itxn_submit
+int 1
+return

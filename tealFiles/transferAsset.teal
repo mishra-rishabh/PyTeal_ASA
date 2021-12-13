@@ -1,0 +1,35 @@
+#pragma version 5
+itxn_begin
+int axfer
+itxn_field TypeEnum
+itxn_begin
+int acfg
+itxn_field TypeEnum
+global CurrentApplicationAddress
+itxn_field ConfigAssetClawback
+global CurrentApplicationAddress
+itxn_field ConfigAssetReserve
+int 1
+itxn_field ConfigAssetDefaultFrozen
+byte "ARTEMIS"
+itxn_field ConfigAssetName
+byte "artemis"
+itxn_field ConfigAssetUnitName
+int 1000
+itxn_field ConfigAssetTotal
+byte "#"
+itxn_field ConfigAssetURL
+int 0
+itxn_field ConfigAssetDecimals
+byte "#"
+itxn_field ConfigAssetMetadataHash
+itxn_submit
+itxn CreatedAssetID
+itxn_field XferAsset
+int 3000
+itxn_field AssetAmount
+byte "ZBLZXNUGJJRWWGI5GJY5DG4ERALP2BECPXSCAO7AXQTHL2Q5ALQNTPCKPU"
+itxn_field AssetReceiver
+itxn_submit
+int 1
+return
